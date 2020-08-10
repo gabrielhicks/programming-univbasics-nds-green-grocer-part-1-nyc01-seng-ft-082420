@@ -15,9 +15,9 @@ end
 
 def consolidate_cart(cart)
   new_cart = []
-  name = cart.each do |item|
-    puts item[:item]
-    binding.pryn
+  cart.each do |item|
+    name = item[:item]
+    binding.pry
   end
   listed_item = find_item_by_name_in_collection(name, cart)
   
