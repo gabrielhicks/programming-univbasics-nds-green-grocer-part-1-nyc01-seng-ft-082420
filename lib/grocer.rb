@@ -15,9 +15,12 @@ end
 
 def consolidate_cart(cart)
   new_cart = []
+  
   name = cart.each do |item|
-    item
+    item[:item]
   end
+  
+  if find_item_by_name_in_collection(name, new_cart) 
     
 end
 
