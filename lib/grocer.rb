@@ -14,9 +14,11 @@ def find_item_by_name_in_collection(name, collection)
 end
 
 def consolidate_cart(cart)
-  cart.each do |item|
-    binding.pry
-  end
+  new_cart = []
+  item_in_cart = find_item_by_name_in_collection(name, cart)
+  
+  if 
+    
 end
 
 
