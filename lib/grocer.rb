@@ -15,7 +15,7 @@ end
 
 def consolidate_cart(cart)
   new_cart = []
-  cart.each do |item|
+  names = cart.each do |item|
     name = item[:item]
     binding.pry
   end
