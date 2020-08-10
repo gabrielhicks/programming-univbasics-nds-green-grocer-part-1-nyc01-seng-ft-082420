@@ -14,7 +14,9 @@ def find_item_by_name_in_collection(name, collection)
 end
 
 def consolidate_cart(cart)
-  binding.pry
+  cart.each do |item|
+    binding.pry
+  end
 end
 
 
