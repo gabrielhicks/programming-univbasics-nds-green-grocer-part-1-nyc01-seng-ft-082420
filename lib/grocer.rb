@@ -20,8 +20,11 @@ def consolidate_cart(cart)
     item[:item]
   end
   
-  if find_item_by_name_in_collection(name, new_cart) == nil
-    new_cart.push item
+  listed_item = find_item_by_name_in_collection(name, new_cart)
+  
+  
+  if 
+    new_cart.push(cart)
     
 end
 
