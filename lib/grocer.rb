@@ -21,7 +21,7 @@ def consolidate_cart(cart)
     
     if listed_item
       listed_item[:count] = 1
-    else
+    else if 
     listed_item[:count] += 1
     binding.pry
     end
