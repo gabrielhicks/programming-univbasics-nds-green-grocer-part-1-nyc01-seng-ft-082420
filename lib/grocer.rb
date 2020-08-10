@@ -23,6 +23,7 @@ def consolidate_cart(cart)
    if listed_item == nil
     new_cart.push(listed_item)
     new_cart.push(listed_item[:count] = 1)
+    binding.pry
   else
     new_cart[:count] += 1
   end
