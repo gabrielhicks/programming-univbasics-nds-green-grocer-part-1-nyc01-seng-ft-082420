@@ -22,7 +22,7 @@ def consolidate_cart(cart)
     if listed_item
       listed_item[:count] = 1
     else if 
-    listed_item[:count] += 1
+    listed_item[:count].merge += 1
     binding.pry
     end
   end
