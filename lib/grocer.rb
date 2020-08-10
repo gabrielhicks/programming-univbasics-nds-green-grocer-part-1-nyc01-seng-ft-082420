@@ -21,8 +21,8 @@ def consolidate_cart(cart)
   listed_item = find_item_by_name_in_collection(name, cart)
   
    if listed_item == nil
-    new_cart.push(listed_item)
-    new_cart.push(listed_item[:count] = 1)
+    # new_cart.push(listed_item)
+    # new_cart.push(listed_item[:count] = 1)
     binding.pry
   else
     new_cart[:count] += 1
